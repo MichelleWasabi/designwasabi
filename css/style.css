@@ -2802,7 +2802,7 @@ canvas#distorspirit {
     top: 40%;
   }
   h1 {
-    font-size: 6rem !important;
+    font-size: 5rem !important;
   }
   #fullpage .section .content-inside-section .container-inside .main-content #contact-form {
     margin-top: 50px;
@@ -3035,6 +3035,14 @@ canvas#distorspirit {
 
 .office-photos {
   margin-top: 5em;
-  margin-bottom: 5em;
+  margin-bottom: 6em;
   margin-left: 2em;
+}
+
+@media only screen and (max-width: 991px) {
+  .office-photos {
+    margin-top: 5em;
+    margin-bottom: 6em;
+    margin-left: 0;
+  }
 }
